@@ -59,7 +59,7 @@ body{
 .menu a{
     color: white;
     text-decoration: none;
-    transition: all 600ms;
+    transition: all 500ms;
     padding: 10px;
     border-radius: 20px;
 
