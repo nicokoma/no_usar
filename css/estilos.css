@@ -29,7 +29,7 @@ body{
 .encabezado .navbar{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    background-color: black;
+    background-image: linear-gradient(black, rgb(32, 32, 32));
     height: 50px;
     align-items: center;
 }
@@ -126,7 +126,7 @@ body{
     padding: 10px;
     box-sizing: border-box;
     color: white;
-    background-color: black;
+    background-image: linear-gradient(black, rgb(23, 23, 23));
     border: 1px solid black;
     display: flex;
     grid-column: 2;
@@ -137,8 +137,8 @@ body{
 }
 
 .quienes-home a:hover{
-    background-color: white;
-    color: black;
+    background-image: linear-gradient(rgb(48, 48, 48), black );
+    color: white;
 }
 
 
@@ -238,7 +238,7 @@ body{
 
 .servicios-home  a{
     box-sizing: border-box;
-    background-color: black;
+    background-image: linear-gradient(black, rgb(27, 27, 27));
     border: 1px solid black;
     color: white;
     text-decoration: none;
@@ -246,8 +246,8 @@ body{
 }
 
 .servicios-home a:hover{
-    background-color: white;
-    color: black;
+    background-image: linear-gradient(rgb(28, 28, 28), black);
+    color: white;
 }
 
 
