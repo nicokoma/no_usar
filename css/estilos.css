@@ -29,7 +29,7 @@ body{
 .encabezado .navbar{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    background-color: black;
+    background-image: linear-gradient(black, rgb(32, 32, 32));
     height: 50px;
     align-items: center;
 }
@@ -59,10 +59,18 @@ body{
 .menu a{
     color: white;
     text-decoration: none;
+    transition: all 500ms;
+    padding: 10px;
+    border-radius: 20px;
+
 }
 
 .menu a:hover{
-    color: #CCC;
+    color: rgb(152, 152, 152);
+    transform: translate(0px, 10px);
+    background-color: rgb(77, 77, 77);
+    border-radius: 20px;
+
 }
 
 .principal{
@@ -126,7 +134,7 @@ body{
     padding: 10px;
     box-sizing: border-box;
     color: white;
-    background-color: black;
+    background-image: linear-gradient(black, rgb(23, 23, 23));
     border: 1px solid black;
     display: flex;
     grid-column: 2;
@@ -137,8 +145,8 @@ body{
 }
 
 .quienes-home a:hover{
-    background-color: white;
-    color: black;
+    background-image: linear-gradient(rgb(48, 48, 48), black );
+    color: white;
 }
 
 
@@ -238,7 +246,7 @@ body{
 
 .servicios-home  a{
     box-sizing: border-box;
-    background-color: black;
+    background-image: linear-gradient(black, rgb(27, 27, 27));
     border: 1px solid black;
     color: white;
     text-decoration: none;
@@ -246,12 +254,9 @@ body{
 }
 
 .servicios-home a:hover{
-    background-color: white;
-    color: black;
+    background-image: linear-gradient(rgb(28, 28, 28), black);
+    color: white;
 }
-
-
-
 
 
 
@@ -382,7 +387,7 @@ body{
     font-size: 40px;
     font-weight: 800;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     
 }
 
@@ -398,7 +403,7 @@ body{
 .servicio_hijo h2{
     font-size: 25px !important;
     justify-content: start !important;
-    margin-bottom: 0 !important;
+
 }
 
 .principal-servicio .servicio_hijo{
@@ -412,22 +417,37 @@ body{
 }
 
 
-.principal-servicio .boton{
-    
-    text-align: center;
-    margin: 10px 0 0 0;
-    padding: 5px;
-    background-color: black;
-    border: none;
+
+.principal-servicio a{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
     color: white;
-    height: 26px;
-    width: 92px;
+    background-image: linear-gradient(black, rgb(23, 23, 23));
+    border: 1px solid black;
+    display: flex;
+    grid-column: 2;
+    grid-row: 4;
+    justify-content: center;
     text-decoration: none;
+    
 }
+
+.principal-servicio a:hover{
+    background-image: linear-gradient(rgb(48, 48, 48), black );
+    color: white;
+}
+
+
+
+
 
 .principal-servicio .texto{
     margin-bottom: 15px;
     font-family: 'ubuntu-light';
+    line-height: 25px;
 }
 
 
