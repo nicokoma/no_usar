@@ -303,6 +303,12 @@ body{
 
 .pieDepagina a{
     color: black;
+    text-decoration: none;
+}
+
+.pieDepagina a:hover{
+    color: rgb(106, 106, 106);
+    text-decoration: none;
 }
 
 .pieDepagina .tel{
