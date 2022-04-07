@@ -314,6 +314,7 @@ body{
 .pieDepagina .tel{
     display: flex;
     grid-column: 10/12;
+    text-decoration: none;
 
 }
 
