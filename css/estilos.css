@@ -387,7 +387,7 @@ body{
     font-size: 40px;
     font-weight: 800;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     
 }
 
@@ -403,7 +403,7 @@ body{
 .servicio_hijo h2{
     font-size: 25px !important;
     justify-content: start !important;
-    margin-bottom: 0 !important;
+
 }
 
 .principal-servicio .servicio_hijo{
@@ -417,22 +417,37 @@ body{
 }
 
 
-.principal-servicio .boton{
-    
-    text-align: center;
-    margin: 10px 0 0 0;
-    padding: 5px;
-    background-color: black;
-    border: none;
+
+.principal-servicio a{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
     color: white;
-    height: 26px;
-    width: 92px;
+    background-image: linear-gradient(black, rgb(23, 23, 23));
+    border: 1px solid black;
+    display: flex;
+    grid-column: 2;
+    grid-row: 4;
+    justify-content: center;
     text-decoration: none;
+    
 }
+
+.principal-servicio a:hover{
+    background-image: linear-gradient(rgb(48, 48, 48), black );
+    color: white;
+}
+
+
+
+
 
 .principal-servicio .texto{
     margin-bottom: 15px;
     font-family: 'ubuntu-light';
+    line-height: 25px;
 }
 
 
