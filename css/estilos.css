@@ -268,7 +268,7 @@ body{
 
 .pieDepagina{
     display: grid;
-    grid-template-columns: repeat(9,1fr);
+    grid-template-columns: repeat(12,1fr);
     justify-items: center;
     align-items: center;
     height: 70px;
@@ -303,6 +303,12 @@ body{
 
 .pieDepagina a{
     color: black;
+}
+
+.pieDepagina .tel{
+    display: flex;
+    grid-column: 10/12;
+
 }
 
 
